@@ -7,8 +7,8 @@ package exercise1;
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
- * @author dancye
- * @author Paul Bonenfant May 2020
+ * @author Sameer Kumar
+ * @author Sameer Kumar Jan/25/2023
  */
 public class Card {
 
@@ -43,4 +43,12 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }  
+    public int randomS() {
+        int value = (int) (Math.random() * 4) + 0;
+        return value;
+    }
+    public int randomV() {
+        int value = (int) (Math.random() * 13) + 1;
+        return value;
+    }
 }
